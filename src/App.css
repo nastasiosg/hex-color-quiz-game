@@ -1,0 +1,49 @@
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+button {
+  height: 35px;
+  width: 130px;
+  padding: 5px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:nth-child(4) {
+  margin: 0 5px;
+}
+
+.wrong, .right {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+}
+
+.right {
+  color: green;
+}
